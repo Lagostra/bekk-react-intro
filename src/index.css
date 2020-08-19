@@ -44,7 +44,7 @@ body {
 
 .site-header h1 {
   color: var(--app-text);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
 }
 
@@ -278,4 +278,33 @@ body {
 .camera-button > * {
   font-size: 2.5em;
   color: var(--add-image-icon);
+}
+
+label {
+  display: block;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 0.5em;
+  font-size: 1.1em;
+  margin: 3px 0 25px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+  background: #e4e4e4;
+}
+
+button {
+  font-size: 1.1em;
+  padding: 0.5em 1.3em;
+  border: none;
+  border-radius: 0.3em;
+  background: #3283b3;
+  color: white;
+}
+
+.error-message {
+  color: red;
 }
